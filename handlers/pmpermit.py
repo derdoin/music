@@ -66,3 +66,4 @@ async def rmpmPermiat(client: USER, message: Message):
         await message.reply_text("Bu şekilde PM")
         return
     message.continue_propagation()
+
