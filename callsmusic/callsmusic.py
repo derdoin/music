@@ -30,3 +30,4 @@ async def on_stream_end(client: PyTgCalls, update: Update) -> None:
 
 
 run = pytgcalls.start
+
