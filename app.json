@@ -1,46 +1,50 @@
 {
-  "name": "Tempo Music",
-  "description": "Telegram'ınızın Grup Sesli Sohbeti'nde şarkı çalmak için Açık Kaynaklı bot. Powered by Mehmetbaba55.",
-  "keywords": ["music", "voicechat", "telegram"],
-  "repository": "https://github.com/Mehmetbaba55/EfsaneMusic",
-  "stack": "container",
+  "name": "Telegram Mention TaggerBot",
+  "logo":"https://telegra.ph/file/dfa517fd00b6ca5f7ac9.jpg",
+  "description": "User tagger bot sıze ucretsız uyelerınızı etıketleyen bı bottur.",
   "env": {
-    "SESSION_NAME": {
-      "description": "Pyrogram oturum dizesi (Replit.com)",
-      "required": true
-    },
     "BOT_TOKEN": {
-      "description": "Bir bot belirteci @botfather ile alınız",
-      "required": true
-    },
-    "BOT_NAME": {
-      "description": "Müzik Oynatıcı Bot Adınız.",
-      "required": true
+      "description": "bot token girin.",
       "value": ""
-    },
-    "BOT_USARNAME": {
-      "description": "Müzik Oynatıcı Bot Kullanıcı İsmi @ olmadan yazınız.",
-      "required": true,
-      "value": ""
-     
     },
     "API_ID": {
-      "description": "my.telegram'dan uygulama kimliği.org/apps",
-      "required": true
+      "description": "@otomytelegrambot dan api hash api id alınız.",
+      "value": ""
     },
     "API_HASH": {
-      "description": "My.telegram'dan uygulama apı-hash.org/apps",
-      "required": true
+      "description": "@otomytelegrambot dan api hash api id alınız.",
+      "value": ""
+    },
+    "BOT_NAME": {
+      "description": "botun adını girin.",
+      "value": ""
+    },
+    "BOT_USERNAME": {
+      "description": "botun adresini girin.",
+      "value": ""
+    },
+    "BOT_ID": {
+      "description": "botun id'sini girin.",
+      "value": ""
     },
     "SUDO_USERS": {
-      "description": "Her yerde yönetici olarak sayılan kullanıcı kimliklerinin listesi (Müzik hesabınının id'si).",
-      "required": true
+      "description": "botun sahibini girin.",
+      "value": ""
     },
-    "DURATION_LIMIT": {
-      "description": "İndirmeler için en fazla ses süresi sınırı (minutes).",
-      "required": true,
-      "value": "55"
+    "SUPPORT_CHAT": {
+      "description": "botun destek grubunu girin.",
+      "value": ""
+    },
+    "OWNER_ID": {
+      "description": "botun sahibinin id'sini girin.",
+      "value": ""
+    },
+    "OWNER_USERNAME": {
+      "description": "botun sahibinin adresini girin.",
+      "value": ""
     }
   }
+  "buildpacks": [{
+    "url": "https://github.com/heroku/heroku-buildpack-python.git"
+  }]
 }
-
