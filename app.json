@@ -3,7 +3,7 @@
   "logo":"https://telegra.ph/file/dfa517fd00b6ca5f7ac9.jpg",
   "description": "User tagger bot sıze ucretsız uyelerınızı etıketleyen bı bottur.",
   "env": {
-    "BOT_TOKEN": {6087838137:AAHUl0dnuoMepJ8-INN4zWb3HfkFNK8qoKg
+    "BOT_TOKEN": {
       "description": "bot token girin.",
       "value": ""
     },
@@ -11,7 +11,7 @@
       "description": "@otomytelegrambot dan api hash api id alınız.",
       "value": ""
     },
-    "API_HASH": {f4bce2b3138c661ce8f2e986807d91b3
+    "API_HASH": {
       "description": "@otomytelegrambot dan api hash api id alınız.",
       "value": ""
     },
@@ -23,11 +23,11 @@
       "description": "botun adresini girin.",
       "value": ""
     },
-    "BOT_ID": {6087838137
+    "BOT_ID": {
       "description": "botun id'sini girin.",
       "value": ""
     },
-    "SUDO_USERS": {1BJWap1wBu3s5HnTOPgOPyZ3MB1gvOMsNifGLQVjRb1VkBdBQK1FolGaFwaicRSrwm03hH_7QTeRkPRJ88qAydGTL7bDHFF90Iu7d9phNfgKyExQtJgTKYfPfnvpnzH5A9B6tOKf4MkorpOh-65FinXyivg3tHJI5QF1SGIYwXRWafIH01ktDiiA332Hz4UrBvNpGGllVGCs3_e04XxK6xpFLF8S8tCUjhaFh2AwLCmBrG-kawzRPMrB97lfQm73oZ4GVF9TMuhtCWXHKEKFK_0sAHkDxSpiyhoQdAG2ITRdYILw_qQ2-Kv4hwK0vQxftspE-74kXv_1ZYwMLejC3_DtVdxpTz2I=
+    "SUDO_USERS": {
       "description": "botun sahibini girin.",
       "value": ""
     },
@@ -35,11 +35,11 @@
       "description": "botun destek grubunu girin.",
       "value": ""
     },
-    "OWNER_ID": {6366762649
+    "OWNER_ID": {
       "description": "botun sahibinin id'sini girin.",
       "value": ""
     },
-    "OWNER_USERNAME": {@surucubotasistan
+    "OWNER_USERNAME": {
       "description": "botun sahibinin adresini girin.",
       "value": ""
     }
