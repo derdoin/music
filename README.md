@@ -1,9 +1,9 @@
 
 # Müzik Bot 🇹🇷
-- [Müzik Bot](https://t.me/StarMuzikBot) Telegram Müzik Bot .
+- [Müzik Bot](https://t.me/tempomucisbot) Telegram Müzik Bot .
 
 # Support 
-- [Support](https://t.me/StarBotKanal) Telegram Support Grub .
+- [Support](https://t.me/gecmisle_hesabiml) Telegram Support Grub .
 
 
 ### ⏳ Genel Komutlar
