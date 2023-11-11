@@ -40,6 +40,7 @@
       "description": "İndirmeler için en fazla ses süresi sınırı (minutes).",
       "required": true,
       "value": "55"
+      
     }
   }
 }
